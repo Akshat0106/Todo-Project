@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container"><!--outer container -->
+
+        <div class="content"><!--original content here include progeress bar input tag ,add btn and ul for todo elements-->
+
+            <div class="upperinput-conatiner"><!--includes input tag,progress bar and add btn-->
+                <div class="input-text"><!--include input tag and add btn-->
+                    <h1>Todo App</h1>
+                    <div class="form">
+                        <input type="text" id="taskInput" placeholder="Type Here">
+                        <button id="newTask" class="btn">Add</button>  
+                    </div>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                    <div class="progress-number">0/0</div>
+                </div>
+            </div>
+
+        <ul id="task-list"></ul>
+        </div>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html>
